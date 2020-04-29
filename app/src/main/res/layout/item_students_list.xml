@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_Roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="12sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="15sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
